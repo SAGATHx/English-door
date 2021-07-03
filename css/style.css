@@ -102,3 +102,71 @@ body {
 .dots-item:hover {
   background-color: #1e76b8;
 }
+.trigger__heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.trigger__heading span {
+  color: #1e76b8;
+}
+.trigger__body {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trigger__item {
+  width: 222px;
+  text-align: center;
+}
+.trigger-title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 148.68%;
+  margin: 8px 0px;
+}
+.trigger-subtitle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 148.68%;
+}
+.training__heading {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.training__heading span {
+  color: #1e76b8;
+}
+.training__body {
+  margin-top: 65px;
+  display: flex;
+}
+.training__left {
+  position: relative;
+  background-image: url(/img/training.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.training-overlay {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0px;
+  background: rgba(0, 1, 0, 0.5);
+}
+.training-overlay p {
+  color: #fff;
+}
+.training__left .dots {
+  position: absolute;
+  right: 24px;
+  top: 17px;
+}
