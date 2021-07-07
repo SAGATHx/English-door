@@ -146,6 +146,7 @@ body {
 .training__body {
   margin-top: 65px;
   display: flex;
+  flex-direction: row;
 }
 .training__left {
   position: relative;
@@ -169,4 +170,148 @@ body {
   position: absolute;
   right: 24px;
   top: 17px;
+}
+.training-item-5 {
+  border-bottom: 1px solid #e5e5e5;
+}
+.training-item,
+.training-item-5 {
+  display: flex;
+  padding-bottom: 15px;
+  margin-left: 25px;
+}
+.training-item-5 img {
+  margin-right: 19px;
+}
+.training-item img {
+  margin-right: 19px;
+}
+.training__advice {
+  display: flex;
+  margin-top: 22px;
+}
+.advice-title {
+  max-width: 143px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.training__advice-img {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.advice-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+}
+.forms__header {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.forms__header span {
+  color: #1e76b8;
+}
+.forms__forms {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.forms-text {
+  padding: 13px 31px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+.forms-text:focus {
+  outline: 0px;
+}
+.forms-tel {
+  padding: 13px 31px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+.forms-tel:focus {
+  outline: 0px;
+}
+.forms-button {
+  padding: 13px 67px;
+  background: #1e76b8;
+  border-radius: 30px;
+}
+.forms-button {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+.forms__link {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.phone {
+  display: flex;
+  margin-right: 87px;
+}
+.gmail {
+  display: flex;
+  margin-right: 87px;
+}
+.telegram {
+  display: flex;
+}
+.phone img {
+  margin-right: 8px;
+}
+.gmail img {
+  margin-right: 8px;
+}
+.telegram img {
+  margin-right: 8px;
+}
+.telegram a {
+  text-decoration: none;
+  color: #1e76b8;
+}
+.footer {
+  margin-top: 155px;
+  background-color: #000;
+  min-height: 50px;
+}
+.footer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+}
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 50px;
+  align-items: center;
+}
+.footer-text {
+  width: 100%;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
 }
